@@ -1,0 +1,130 @@
+body{
+    background-color: white;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.main-container{
+     width: 100%;
+     height: 100vh;
+     background-image: url(../imagen/LOGO\ GUCCI\ 2.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-position: center;
+}
+.main-menú{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-top: 1.5em;
+    padding-right: 1em;
+}
+.items-menú{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+.items-menú ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.items-menú ul li{
+    list-style: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.items-menú ul li a{
+    text-decoration: none;
+    font-size: 2em;
+}
+.download-btn{
+    background-color: transparent;
+    border-radius: 20px;
+    width: 25em;
+    height: 5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid 2px #a1a1a1;
+}
+.download-btn a{
+    color: white;
+    font-size: 1.5em;
+}
+.download-btn span span{
+    font-size: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.header{
+    width: 100%;
+    padding-left: 3em;
+}
+.title-header{
+    font-size: 4em;
+    color: white;
+    width: 60%;
+}
+.description-header{
+    width: 6em;
+    color: white;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: solid 2px white;
+}
+.medio{
+    background-image: url(../imagen/Para\ las\ personas\ \(1\).png);
+    background-image: 100%;
+    margin-left: 4em;
+    background-repeat: no-repeat;
+}
+.img-chula{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-right: 10em;
+    padding-left: 55em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    position: relative;
+}
+.hipertexto{
+    padding-right: 1em;
+    position: absolute;
+    right: 10em;
+    color: rgb(143, 74, 10);
+}
+.parte3{
+    background-image: url(../video/Para\ las\ personas\ \(1\).gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.ayuda{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-right: 10em;
+    padding-left: 55em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.texto2{
+    padding-bottom: 40em;
+    color: transparent;
+}
+.parte4{
+    background-image: url(../imagen/Para\ las\ personas\ \(2\).png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.ayuda2{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-right: 10em;
+    padding-left: 55em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.texto3{
+    padding-top: 37em;
+    color: transparent;
+}
